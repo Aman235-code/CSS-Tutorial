@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); */
+
+
+
+
+/* h1{
+    font-weight:lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant:small-caps;
+    font-family: 'Quicksand', sans-serif;
+} */
+
+
+/* html{
+    font-size: 14px;
+} */
+
+/* #parent{ */
+    /* border: 1px solid yellow; */
+    /* width: 5in; */
+    /* width: 500pc; */
+    /* width: 800px; */
+    /* height: 50vh; */
+    /* width: 50vw; */
+    /* font-size: 30px; */
+    /* font-size: 4vw; */
+/* } */
+/* #child{ */
+    /* border: 1px solid pink; */
+    /* width: 50%;  */
+    /* width: ; */
+    /* font-size: 2em;double of parent font size */
+    /* font-size: 2rem;double of html root */
+/* } */
+
+/* cursor  */
+/* div{ */
+    /* border:1px solid red; */
+    /* cursor:all-scroll; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: crosshair; */
+    /* cursor: e-resize; */
+    /* cursor: grab; */
+    /* cursor: help; */
+    /* cursor: not-allowed; */
+    /* cursor: progress; */
+    /* cursor: wait; */
+    /* cursor: zoom-in; */
+/* } */

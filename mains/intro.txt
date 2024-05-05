@@ -1,0 +1,10 @@
+CSS --> Cascading Style Sheets
+
+Describes how HTML elements are to be displayed on screen paper or in other media
+
+add css to HTML
+1.External CSS
+2.Internal CSS
+3.Inline CSS
+
+priority = last css

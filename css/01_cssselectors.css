@@ -1,0 +1,27 @@
+/* Element selector  */
+/* direct tag  */
+p {
+    color: brown;
+}
+
+/* ID selector  */
+/* style a particular element  */
+
+#para3{
+    color: blue;
+}
+
+/* class selector */
+/* style group of particular tags  */
+
+.redc{
+    color: red;
+}
+
+#fsize{
+    font-size: 50px;
+}
+
+.under{
+    text-decoration: underline;
+}

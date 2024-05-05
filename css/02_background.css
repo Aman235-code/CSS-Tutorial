@@ -1,0 +1,20 @@
+#bg{
+    background-color:yellow;
+    background-image: url('../images/car.jpg'),url(../images/cssp.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:inherit;
+    background-attachment:fixed;
+    /* background: color url repeat attacjment position; */
+
+}
+/* #b{
+    background-color:brown;
+} */
+
+body{
+    background-color: red;
+  
+}
+
+/* backgroung image  */

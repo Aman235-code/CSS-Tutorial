@@ -1,0 +1,6 @@
+used to select an html element.
+mainly 3 types.
+1. Element selector --> all html tags
+2. Id selector --> particular html tag
+3. Class selector --> group of particular tags
+

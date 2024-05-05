@@ -1,0 +1,146 @@
+
+/* box shadow  */
+/* div{
+    border: 2px solid red;
+    width: 500px;
+    background-color: yellowgreen;
+    /* color: red; */
+    /* margin: 100px;
+    padding: 20px;
+    box-shadow: 10px 15px 15px 3px gray,-10px -15px 15px 3px red;  */
+
+/* } */ 
+
+/* opacity  */
+/* #color-box{
+    background-color: green;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+img{
+    opacity: 0.2;
+}
+img:hover{
+    opacity: 1;
+} */
+
+
+/* css filter  */
+/* img{ */
+    /* filter: blur(5px); */
+    /* filter: brightness(10%); */
+    /* filter: contrast(70%); */
+    /* filter: drop-shadow(8px 8px 5px red); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(10%); */
+    /* filter: opacity(30%); */
+    /* filter: saturate(30%); */
+    /* filter: sepia(30%); */
+/* } */
+
+/* img sprites  */
+/* pending  */
+
+
+/* css gradients  */
+/* linear  */
+/* #div1{
+    height: 500px;
+    border: 2px solid yellow;
+    /* background-image: linear-gradient(to right,green,blue,red); */
+    /* background-image: radial-gradient(circle,green,blue 100%,red,pink,brown 100%); */
+/* } */ 
+
+/* overflow  */
+/* #overflow{
+    border: 2px solid yellow;
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
+/* } */ 
+
+
+/* resizable  */
+/* textarea{ */
+    /* resize: none; */
+    
+/* } */
+
+/* lists */
+/* ul{
+    list-style-type:georgian;
+    list-style-position: inside;
+}
+ol{
+    list-style-type:lower-alpha;
+}
+li{
+    border:2px solid blue;
+} */
+
+
+/* float and clear  */
+/* img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+#img1{
+    float: right;
+}
+#img2{
+    float: left;
+   
+} */
+
+/* ul{
+    background-color: green;
+    list-style-type: none;
+    /* border: 1px solid red; */
+    /* overflow: auto; */
+/* } */
+/* li{ */
+    /* color: white;
+    padding: 10px 15px;
+    float: left; */
+/* } */ 
+/* p{
+    border: 1px solid black;
+    overflow: auto;
+}
+img{
+    /* float: right; */
+    /* width: 100px;
+    height: auto; */
+/* } */
+/* #img1{
+    float: right;
+}
+#img2{
+    float: right;
+    clear: right; */
+/* } */
+
+#content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
+    float: left;
+}
+#footer{
+    background-color: yellowgreen;
+    clear: both;
+}

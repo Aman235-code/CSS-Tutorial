@@ -1,0 +1,214 @@
+/* :root{
+    --primary-color: teal;
+    --button-color: white;
+    --text-color: red;
+}
+
+
+
+#fun{
+    background-color: var(--primary-color);
+    height: 200px;
+    width: calc(100% - 200px);
+}
+a{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: var(--text-color);
+    color:var(--button-color);
+    text-decoration: none;
+} */
+/* box sizing  */
+/* #div1{
+    background-color: blueviolet;
+    width: 600px;
+    height: 150px;
+}
+#div2{
+    background-color: chocolate;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+} */
+
+/* initial vs inherit  */
+/* #green{
+    color: green;
+}
+
+#blue{
+    color: red;
+}
+
+#initial{
+    /* color: initial; //default color of link is blue */
+/* } */
+
+/* #inherit{ */
+    /* color: inherit; //parent color is green  */
+/* } */ 
+
+
+/* object fit  */
+/* img{
+    border: 1px solid red;
+    width: 500px;
+    height: 400px;
+    object-fit:contain;
+    object-position:top left;
+} */
+
+/* pseudo class  */
+/* a:hover{}
+a:link{} */
+/* li:first-child{
+    color: red;
+} */
+/* li:last-child{
+    color: red;
+} */
+/* li:nth-child(4){
+    color:red;
+} */
+
+/* li:nth-child(odd){
+    color:red;
+} */
+
+
+/* pseudo elements  */
+/* selector::pesudo-element{} */
+/* p::first-letter{
+    font-size: 35px;
+    color: red;
+} */
+/* p::first-line{
+    font-size: 35px;
+    color: red;
+}
+h1::after{
+    content: url(../images/car.jpg);
+    content: " car image";
+}
+::selection{
+    color: red;
+    background-color: yellow;
+} */
+
+/* display  */
+/* .display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+} */
+
+/* .display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    display: inline;
+} */
+
+/* .display{
+    border: 1px solid red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+} */
+
+/* #div1{ */
+    /* display: none; */
+    /* visibility: hidden; */
+/* } */
+
+
+/* position  */
+/* static is default  */
+/* relative --> apne position se move karega  */
+/* absolute --> apne parent position se  */
+/* parent is positioned in absolute  */
+/* body se lega agar  */
+/* #parent{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+
+    position: relative;
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    /* position: relative; */
+    /* top: 50px; */
+    /* left: 50px; */ 
+
+
+
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+/* 
+    position: fixed;
+    top: 0px;
+    left: 0px; */
+
+
+/* } */
+/* #three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+} */
+
+/* layers and z index  */
+#parent{
+    /* border: 1px solid red; */
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 3;
+
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: -100px;
+    z-index: 2;
+}

@@ -1,0 +1,111 @@
+/* #border{
+    border-style:solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 10px 20px;
+    /* border:width style color; */
+    /* border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: red; 
+} */
+
+
+/* Height and width  */
+/* #div1{
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    max-width:1000px ;
+    max-height: 1000px;
+    min-width: 5%;
+    min-height:5% ;
+} */
+
+/* padding  */
+/* gap between content and border  */
+/* #div1{
+    border: 2px solid red;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    /* padding: t r b l; 
+} */
+
+/* margin  */
+/* outside border and other element between them there is a space  */
+/* body{
+    /* border: 9px dotted black; */
+/* } */
+/* .div1{
+    border: 2px solid red;
+    padding: 50px 10px 20px 40px;
+} */
+/* #marg{ */
+    /* margin-top: -20px; //it will go top and crosses other elements border  */
+    /* margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 80px; */
+    /* width: 200px;
+    margin:40px auto; */
+    /* margin-top: 50px;
+}
+#collap{
+    margin-bottom: 30px;
+} */ 
+
+
+/* text */
+/* #text{
+    width: 500px;
+    border: 1px solid black;
+    color: tomato;
+    /* text-align:justify; */
+    /* direction: rtl; */
+    /* text-decoration:solid;
+    text-transform: capitalize; */
+    /* line-height: 30px;
+    text-indent: 50px;
+    letter-spacing: 20px;
+    word-spacing: 10px; */
+    /* white-space: pre; */
+    /* word-wrap: break-word; */
+
+/* }  */
+/* img{
+    border: 2px solid green;
+    vertical-align:middle;
+} */
+
+/* text shadow  */
+/* #shadow{
+ font-size: 70px;
+ text-shadow: -5px -10px 5px red; /*horizontal, vertical, blurness, color */
+/* }  */
+
+/* #shadow{
+    width: 500px;
+    border: 1px solid black;
+    writing-mode: vertical-rl;
+} */
+
+/* links  */
+a{
+    text-decoration: none;
+}
+/* link normal
+visited 
+hover 
+active  */
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+}
